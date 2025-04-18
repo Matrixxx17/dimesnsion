@@ -24,7 +24,7 @@ const NetworkTraffic = ({ networkData }) => {
   const serverNames = [...new Set(networkData.map(item => item.server_name))];
   
   // Create a color array for the lines
-  const COLORS = ['#8884d8', '#82ca9d', '#ffc658', '#ff8042', '#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#a4de6c', '#d0ed57'];
+  const COLORS = ['#FF0000', '#FF4500', '#FF6347'];
 
   return (
     <div className="network-traffic-container">
