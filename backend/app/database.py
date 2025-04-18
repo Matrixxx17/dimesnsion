@@ -6,8 +6,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# TODO: Replace with your PostgreSQL connection string
-# SQLALCHEMY_DATABASE_URL = "postgresql://username:password@localhost/server_monitoring"
 SQLALCHEMY_DATABASE_URL = "postgresql://postgres:Rohan%400017@localhost/dimensionless_servermonitoring"
 
 engine = create_engine(SQLALCHEMY_DATABASE_URL)
