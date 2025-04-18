@@ -18,11 +18,12 @@ Dimension is a comprehensive full-stack solution for real-time server health mon
 
 ---
 
-## 📸 Dashboard Preview
 
-<img src="./server_monitoring dashboard.png" alt="Dashboard Screenshot" width="100%" />
+[## 📸 Dashboard Preview
 
-<em>Real-time server monitoring dashboard in action</em>
+Real-time server monitoring dashboard in action  
+🔗 [Live Demo](https://dimensionnnnless-n84rd1zxw.vercel.app)](https://dimensionnnless-fyprml92y.vercel.app/)
+
 
 ---
 
