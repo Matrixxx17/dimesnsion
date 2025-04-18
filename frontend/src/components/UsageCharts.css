@@ -1,0 +1,33 @@
+.usage-charts-container {
+    padding: 15px;
+  }
+  
+  .usage-charts-container h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .charts-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .chart-container {
+    text-align: center;
+  }
+  
+  .chart-container h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  @media (max-width: 768px) {
+    .charts-grid {
+      grid-template-columns: 1fr;
+      gap: 30px;
+    }
+  }
