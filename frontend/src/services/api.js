@@ -1,7 +1,5 @@
 import axios from 'axios';
 
-
-
 const API = process.env.REACT_PUBLIC_API_URL;
 
 export async function fetchServers() {
@@ -9,7 +7,6 @@ export async function fetchServers() {
   if (!res.ok) throw new Error("Failed to load servers");
   return res.json();
 }
-
 
 const api = axios.create({
   baseURL: API,
