@@ -12,7 +12,7 @@ export async function fetchServers() {
 
 
 const api = axios.create({
-  baseURL: API_URL,
+  baseURL: API,
   headers: {
     'Content-Type': 'application/json',
   },
