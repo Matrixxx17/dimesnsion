@@ -5,7 +5,7 @@ import axios from 'axios';
 const API_URL = process.env.REAC_PUBLIC_API_URL;
 
 export async function fetchServers() {
-  const res = await fetch(`${API}/servers`);
+  const res = await fetch(`${API_URL}/servers`);
   if (!res.ok) throw new Error("Failed to load servers");
   return res.json();
 }
