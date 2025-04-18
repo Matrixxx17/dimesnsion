@@ -14,7 +14,7 @@ app = FastAPI(title="Server Monitoring API")
 # Configure CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["dimesnsion-jfbnv40rg-marathimatrimony0017gmailcoms-projects.vercel.app"],  # For production, specify the exact origin
+    allow_origins=["*"],  # For production, specify the exact origin
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
